@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  body, * {
+    cursor: none !important;
+  }
+}

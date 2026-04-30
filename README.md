@@ -1,11 +1,30 @@
-<div align="center">
+# Agents World Simulation
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A fully autonomous multi-agent simulation model designed strictly around an LLM-driven backend via Ollama, following object-oriented architectures and cleanly separated logic states.
 
-  <h1>Built with AI Studio</h2>
+## Overview
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Core Loop**: Every agent observes via a perception module, decides on an action via memory, and logs votes.
+- **Rules Processing**: Impostors naturally inherit deception biases using normalized Dirichlet personality mappings.
+- **LLM Integration**: Re-try backed HTTP wrapper communicating with standard local Mistral/Llama3 servers.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Running
 
-</div>
+1. Make sure you have [Ollama](https://ollama.com/) running locally with your desired model:
+   ```bash
+   ollama run mistral
+   ```
+2. Install Python requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the simulation core:
+   ```bash
+   python agents_world/main.py --agents 8 --impostors 2 --rounds 5
+   ```
+4. Run testing:
+   ```bash
+   pytest agents_world/tests/
+   ```
+
+*Note: This architecture is fully built in Python natively and meant to be executed over a standard Python 3.11+ environment.*

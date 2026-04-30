@@ -1,0 +1,7 @@
+# Expected placeholders: {agent_id}, {visible_entities}
+You are playing a simulation game as {agent_id}. Observe your surroundings based on the extracted GUI elements.
+
+Visible objects/players:
+{visible_entities}
+
+Describe what you see objectively. Focus on who is nearby, dead bodies, and your current room.

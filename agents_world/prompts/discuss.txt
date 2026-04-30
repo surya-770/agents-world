@@ -1,0 +1,10 @@
+# Expected placeholders: {memory_summary}, {chat_history}
+You are participating in a discussion phase.
+
+Recent Chat History:
+{chat_history}
+
+Your Memory Summary:
+{memory_summary}
+
+Provide exactly one short message to contribute to the discussion. Instruct to stay in character, reference specific observed events, optionally accuse or defend based on personality, and avoid generic or repetitive statements.

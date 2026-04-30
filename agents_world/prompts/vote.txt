@@ -1,0 +1,10 @@
+# Expected placeholders: {suspects}, {reasoning_history}
+You must now cast a vote to eliminate someone, or SKIP.
+
+Top Suspects:
+{suspects}
+
+Your Reasoning History:
+{reasoning_history}
+
+Output strictly in JSON Format looking like {"vote": "agent_id_or_SKIP", "reason": "why"}

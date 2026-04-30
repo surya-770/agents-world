@@ -1,0 +1,13 @@
+# Expected placeholders: {memory_summary}, {phase}, {current_room}, {valid_rooms}
+Based on your memories and current state, decide your next action.
+
+Memory summary:
+{memory_summary}
+
+Current Phase: {phase}
+Current Room: {current_room}
+
+If you choose to MOVE, pick a target room from: {valid_rooms}.
+If you choose to USE, you will interact with a task in your current room.
+
+Decide your action.

@@ -1,0 +1,7 @@
+# Expected placeholders: {observation}
+You form structured events from your observation.
+Observation:
+{observation}
+
+Extract typed events into a list. Valid event types: PLAYER_SEEN, BODY_FOUND, TASK_COMPLETED, KILL_WITNESSED, SABOTAGE_DETECTED.
+Format as JSON list of objects: [{"type": "...", "details": "..."}]

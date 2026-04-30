@@ -1,0 +1,15 @@
+simulation:
+  num_agents: 8
+  num_impostors: 2
+  tick_rate: 1.0
+  max_rounds: 5
+llm:
+  base_url: "http://localhost:11434"
+  model_name: "mistral"
+  timeout: 30
+  max_retries: 3
+game:
+  suspicion_decay_rate: 0.05
+  kill_cooldown_ticks: 10
+  discussion_duration_ticks: 5
+  memory_max_observations: 50
